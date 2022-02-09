@@ -36,6 +36,14 @@ body {
   font-variation-settings: 'opsz'18;
 }
 
+.description {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin: 0px;
+  font-variation-settings: 'opsz'18;
+  }
+  
 .divider {
   height: 1px;
   border-top: 1px solid #00000025;
@@ -75,9 +83,9 @@ body {
 }
 
 .profpic:hover {
-  width: 210px;
-  height: 210px;
-  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
 }
 
 #page-preloader {
@@ -122,6 +130,12 @@ body {
   width: 50px;
   background: #FFFFFF10;
   border-radius: 100px;
+}
+
+.listpicio {
+  height: 50px;
+  width: 50px;
+  background: #FFFFFF10;
 }
 
 .listpic-border {
@@ -173,14 +187,10 @@ body {
 .tg {background: #34aadf;}
 .vk {background: #0077FF;}
 .github, .spotify {background: black;}
-.qiwi, .tinkoff, .sber {background: #FFFFFF15;}
+.qiwi, .tinkoff, .sber, .io {background: #FFFFFF15;}
 
 .authorship {
   color: black;
   font-size: 10px;
   margin-top: -10px;
-}
-
-::-webkit-scrollbar {
-  width: 0;
 }
