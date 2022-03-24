@@ -1,7 +1,7 @@
 body {
   font-size: 14px;
-  background: #ffffff;
-  font-family: sf;
+  background: #eeeeee;
+  font-family: gsans;
   font-weight: 400;
   font-variation-settings: 'opsz'17;
   color: white;
@@ -57,7 +57,7 @@ body {
 
 .divtext {
   padding-right: 5px;
-  background: #ffffff;
+  background: #eeeeee;
   width: auto;
   height: auto;
   font-size: 12px;
@@ -75,16 +75,16 @@ body {
 }
 
 .profpic {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #FFFFFF25;
   border-radius: 100px;
   transition: 0.5s;
 }
 
 .profpic:hover {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 30px;
 }
 
@@ -95,7 +95,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: #e2dbc1;
+  background: #9c9c9c;
 }
 
 .list {
@@ -174,14 +174,14 @@ body {
 
 .listbtn {
   padding: 10px;
-  background: #e2dbc1;
+  background: #9c9c9c;
   border-radius: 100px;
   margin: auto 5px auto auto;
   cursor: pointer;
 }
 
 .listbtn:active {
-  background: #e2dbc1ba;
+  background: #9c9c9cba;
 }
 
 .tg {background: #34aadf;}
