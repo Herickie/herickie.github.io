@@ -75,17 +75,11 @@ body {
 }
 
 .profpic {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   border: 1px solid #FFFFFF25;
   border-radius: 100px;
   transition: 0.5s;
-}
-
-.profpic:hover {
-  width: 150px;
-  height: 150px;
-  border-radius: 30px;
 }
 
 #page-preloader {
@@ -115,14 +109,11 @@ body {
   transition: 0.3s;
   margin: 5px 0px;
   padding: 5px;
+  border-radius: 15px;
 }
 
 .list a:hover {
   background: #0000000a;
-  padding: 10px 10px;
-  margin: 10px 0px;
-  border-radius: 20px;
-  z-index: 1;
 }
 
 .listpic {
