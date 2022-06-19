@@ -82,6 +82,12 @@ body {
   transition: 0.5s;
 }
 
+.profpic:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+}
+
 #page-preloader {
   position: fixed;
   left: 0;
@@ -175,8 +181,6 @@ body {
   background: #9c9c9cba;
 }
 
-.tg {background: #34aadf;}
-.vk {background: #0077FF;}
 .github, .spotify {background: black;}
 .qiwi, .tinkoff, .sber, .io {background: #FFFFFF15;}
 
