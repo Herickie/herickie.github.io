@@ -12,21 +12,21 @@
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     </head>
     <body>
-        <div id="page-preloader">
-          <script type="text/javascript">
-            $(window).on('load', function() {
-              var $pre = $('#page-preloader'),
-              $pre; $pre.delay(500).fadeOut('slow');
-            });
-          </script>
+      <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
         </div>
-        <script>
-          function copy(text) {
-            var dummy = $('<textarea>').val(text).appendTo('body').select();
-            document.execCommand('copy');
-            $(dummy).remove();
-          }
-        </script>
+      </div>
+      <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
         
         <div class="divider">
           <span class="divtext material-icons">person</span>
@@ -103,11 +103,16 @@
         </div>
         
         <div class="list">
-          <a href="javascript://" onclick="location.href='https://t.me/reHerickie'">
+          <a>
             <img class="listpic" src="assets/images/blog.png"></img>
             <div class="listinfo">
               <div class="listname">Херики'</div>
               <div class="listdesc">Мой блог канал, новости, модификаций APK.</div>
+            </div>
+            <div class="actbtns">
+              <div class="listbtn" href="javascript://" onclick="location.href='https://t.me/reHerickie'">
+                <div class="material-icons">person_add</div>
+              </div>
             </div>
           </a>
         </div>
