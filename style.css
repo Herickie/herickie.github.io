@@ -1,6 +1,6 @@
 body {
   font-size: 14px;
-  background: #1B1D28;
+  background: #32323D;
   font-family: gsans;
   font-weight: 400;
   font-variation-settings: 'opsz'17;
@@ -37,7 +37,7 @@ body {
 
 .divider {
   height: 1px;
-  border-top: 1px solid #FFFFFF25;
+  border-top: 1px solid #32323D;
   border-radius: 1px;
   margin: 20px 0px;
   width: auto;
@@ -48,7 +48,7 @@ body {
 
 .divtext {
   padding-right: 5px;
-  background: #1C1B1B;
+  background: #32323D;
   width: auto;
   height: auto;
   font-size: 12px;
@@ -98,6 +98,8 @@ body {
 }
 
 .list a {
+  background: #393A45;
+  border-radius: 25px;
   height: auto;
   width: auto;
   display: flex;
@@ -112,14 +114,14 @@ body {
   background: #00000020;
   padding: 10px 10px;
   margin: 10px 0px;
-  border-radius: 20px;
+  border-radius: 25px;
   z-index: 1;
 }
 
 .listpic {
   height: 50px;
   width: 50px;
-  background: #c50a0ad7;
+  background: #FFFFFF10;
   border-radius: 100px;
 }
 
@@ -160,7 +162,7 @@ body {
 
 .listbtn {
   padding: 10px;
-  background: #FFFFFF10;
+  background: #4D505F;
   border-radius: 100px;
   margin: auto 5px auto auto;
   cursor: pointer;
