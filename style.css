@@ -122,14 +122,14 @@ animation: scaleUp 1s linear infinite;
   width: 100px;
   height: 100px;
   border: 1px solid #FFFFFF25;
-  border-radius: 15px;
+  border-radius: 100px;
   transition: 0.5s;
 }
 
 .profpic:hover {
   width: 150px;
   height: 150px;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 .list {
@@ -142,7 +142,7 @@ animation: scaleUp 1s linear infinite;
 
 .list a {
   background: #393A45;
-  border-radius: 15px;
+  border-radius: 25px;
   height: auto;
   width: auto;
   display: flex;
@@ -157,7 +157,7 @@ animation: scaleUp 1s linear infinite;
   background: #00000020;
   padding: 10px 10px;
   margin: 10px 0px;
-  border-radius: 15px;
+  border-radius: 25px;
   z-index: 1;
 }
 
@@ -165,7 +165,7 @@ animation: scaleUp 1s linear infinite;
   height: 50px;
   width: 50px;
   background: #FFFFFF10;
-  border-radius: 15px;
+  border-radius: 100px;
 }
 
 .listpic-border {
@@ -173,7 +173,7 @@ animation: scaleUp 1s linear infinite;
   width: 45px;
   padding: 5px;
   background: #FFFFFF10;
-  border-radius: 15px;
+  border-radius: 100px;
 }
 
 .listdesc {
@@ -206,7 +206,7 @@ animation: scaleUp 1s linear infinite;
 .listbtn {
   padding: 10px;
   background: #4D505F;
-  border-radius: 15px;
+  border-radius: 100px;
   margin: auto 5px auto auto;
   cursor: pointer;
 }
